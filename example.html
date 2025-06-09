@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Editar CSS en vivo sin herramientas externas</title>
+</head>
+
+<body>
+    <h3>Formulario de ejemplo</h3>
+    <form>
+        <label>Usuario:</label><br>
+        <input type="text"><br>
+        <label>Contraseña:</label><br>
+        <input type="password"><br>
+        <button>Enviar</button>
+    </form>
+
+    <h4>Edita el CSS aquí:</h4>
+    <pre style="border:1px solid #ccc; background:#f9f9f9;">
+    <style contenteditable="true" style="display: block;">
+    body {
+        font-family: sans-serif;
+        padding: 20px;
+    }
+
+    form {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+    </style>
+    </pre>
+</body>
+
+</html>
